@@ -58,6 +58,9 @@ body {
 	background: #36699C;
 }
 #foot {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	margin-top: 105px;
 	background-color: #71a6d2;
 }
