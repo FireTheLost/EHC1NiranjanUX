@@ -11,14 +11,16 @@ include '../includes/conn.php';
   <div>
   <h2 id="ask-h1">Ask Question</h2>
   <form action="../includes/question.php" method="post">
-  <div class="fields"><center>
+  <div class="fields">
+  <center>
     <br>
-    <input class="text" type="text" name="name" placeholder="Enter A Username...">
+    <input class="text" type="text" name="name" placeholder="Enter A Username..." maxlength="32">
     <br>
     <textarea class="textarea" type="text" name="message" placeholder="Ask Your Question Or Answer One..." maxlength="256"></textarea>
     <br>
     <br>
-    <button id="subbutton" type="submit" name="submit">Post</button></center>
+    <button id="subbutton" type="submit" name="submit">Post</button>
+  </center>
   </div>
   
   <?php
