@@ -10,7 +10,7 @@ include '../includes/conn.php';
 <section id="form">
   <div>
   <h2 id="ask-h1">Ask Question</h2>
-  <form action="question.php" method="post">
+  <form action="../includes/question.php" method="post">
   <div class="fields"><center>
     <br>
     <input class="text" type="text" name="name" placeholder="Enter A Username...">
