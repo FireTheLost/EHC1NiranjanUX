@@ -20,10 +20,6 @@ if (empty($username))
     $username = "Anonymous";
 }
 
-//Escapes potentially dangerous HTML characters
-$username = filter_var($username, FILTER_VALIDATE_EMAIL);
-$message = filter_var($message, FILTER_VALIDATE_EMAIL)
-
 //Inserts name/message/time into the database using safe prepared statements.
 $sql = "INSERT INTO forum (forumMessage, forumUser, forumTime) VALUES (?, ?, ?);";
 $stmt = mysqli_stmt_init($conn);
