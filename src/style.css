@@ -1,11 +1,13 @@
 body {
 	background-color: #13161D;
 }
+
 #nav-ul {
 	list-style-type: none;
 	display: flex;
 	display: -webkit-flex;
 }
+
 #nav {
 	padding: 15px;
 	overflow: auto;
@@ -16,47 +18,65 @@ body {
 	background-color: #7f5a83;
 	background-image: linear-gradient(to right, #32405b 0%, #123e54 80%);
 }
+
 .nav-element {
 	color: #D1E1FF;
 	font-size: 24px;
 	margin: 30px;
 	font-family: arctic;
 }
+
+.nav-element:hover {
+	font-size: 27px;
+	margin: 27px;
+	text-decoration: underline;
+}
+
 #mascot {
 	max-height: 100%;
 }
+
 @font-face {
 	font-family: arctic;
 	src: url(../other/arctic.otf);
 }
+
 .nav-link:link {
 	color: #D1E1FF;
 	text-decoration: none;
 }
+
 .nav-link:visited {
 	color: #D1E1FF;
 	text-decoration: none;
 }
+
 .nav-link:hover {
 	color: #D1E1FF;
 	text-decoration: none;
 }
+
 .nav-link:active {
 	color: #D1E1FF;
 	text-decoration: none;
 }
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
+
 ::-webkit-scrollbar-track {
 	background: #D1E1FF;
 }
+
 ::-webkit-scrollbar-thumb {
 	background: #a6d6f2;
 }
+
 ::-webkit-scrollbar-thumb:hover {
 	background: #36699C;
 }
+
 #foot {
 	position: fixed;
 	bottom: 0;
@@ -64,12 +84,14 @@ body {
 	margin-top: 105px;
 	background-color: #71a6d2;
 }
+
 #foot-h1 {
 	padding: 15px;
 	font-size: 23px;
 	font-family: arctic;
 	text-align: center;
 }
+
 #title {
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -78,17 +100,20 @@ body {
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #sub-title {
 	font-size: 60px;
 	font-family: Calibri;
 	text-align: center;
 	color: #D1E1FF;
 }
+
 .parallax {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 200px;
 }
+
 .cards {
 	background-image: linear-gradient(to bottom, #D1E1FF 20%, #a6d6f2 90%);
 	width: 30%;
@@ -98,31 +123,38 @@ body {
 	margin-right: 20px;
 	margin-left: 20px;
 }
+
 .cards h1 {
 	font-family: Calibri;
 	font-size: 25px;
 	text-align: center;
 }
+
 .cards h2 {
 	font-family: Calibri;
 	font-size: 20px;
 	text-align: center;
 }
+
 #card-1 {
 	transform: translate(0px, 0px);
 }
+
 #card-2 {
 	transform: translate(0px, 75px);
 }
+
 #card-3 {
 	transform: translate(0px, 150px);
 }
+
 .card-ul {
 	font-size: 18.5px;
 	font-family: Calibri;
 	margin: 10px 0px 5px 20px;
 	list-style: square;
 }
+
 #download-button {
 	margin-top: 50px;
 	padding: 15px 25px;
@@ -138,31 +170,38 @@ body {
 	border-radius: 15px;
 	box-shadow: 0 9px #434655;
 }
+
 #download-button:hover {
 	background-color: #71a6d2 
 }
+
 #download-button:active {
 	color: #D1E1FF;
 	background-color: rgb(31, 63, 87);
 	box-shadow: 0 5px #434655;
 	transform: translateY(4px);
 }
+
 #download-link:link {
 	text-decoration: none;
 	color: inherit;
 }
+
 #download-link:visited {
 	text-decoration: none;
 	color: inherit;
 }
+
 #download-link:hover {
 	text-decoration: none;
 	color: inherit;
 }
+
 #download-link:active {
 	text-decoration: none;
 	color: inherit;
 }
+
 #upgrade {
 	margin-top: 50px;
 	margin-left: 30px;
@@ -171,6 +210,7 @@ body {
 	text-align: left;
 	color: #D1E1FF;
 }
+
 #up {
 	margin-top: 50px;
 	margin-left: 30px;
@@ -179,6 +219,7 @@ body {
 	text-align: left;
 	color: #D1E1FF;
 }
+
 #divload {
 	display: flex;
 	justify-content: space-between;
@@ -186,17 +227,21 @@ body {
 	margin-left: 20px;
 	margin-bottom: 13px;
 }
+
 #sys-rec {
 	margin-left: 40px;
 	list-style: square;
 }
+
 #info {
 	margin-top: 25px;
 	width: 45%;
 }
+
 #nux-img {
 	height: 650px;
 }
+
 #down-button {
 	margin-top: 30px;
 	margin-left: 20px;
@@ -204,6 +249,7 @@ body {
 	border: none;
 	border-radius: 5px;
 }
+
 .download {
 	line-height: 75px;
 	width: 400px;
@@ -218,34 +264,42 @@ body {
 	transform: translateX(-50%);
 	font-family: arctic;
 }
+
 .download:hover {
 	-webkit-filter: invert(100%);
 	filter: invert(100%);
 }
+
 .dfn {
 	font-size: 20px;
 	text-align: center;
 }
+
 #down-a:link {
 	text-decoration: none;
 	color: inherit;
 }
+
 #down-a:visited {
 	text-decoration: none;
 	color: inherit;
 }
+
 #down-a:hover {
 	text-decoration: none;
 	color: inherit;
 }
+
 #down-a:active {
 	text-decoration: none;
 	color: inherit;
 }
+
 #why {
 	margin-top: 50px;
 	width: 45%;
 }
+
 #why-h1 {
 	margin-top: 30px;
 	margin-left: 40px;
@@ -254,6 +308,7 @@ body {
 	text-align: left;
 	color: #D1E1FF;
 }
+
 #why-h3 {
 	margin-top: 50px;
 	margin-left: 40px;
@@ -263,24 +318,29 @@ body {
 	color: #D1E1FF;
 	text-align: justify;
 }
+
 #why-div {
 	display: flex;
 	justify-content: space-between;
 }
+
 #penguins {
 	height: 375px;
 	margin-top: 45px;
 	margin-right: 70px;
 }
+
 #penguins-comp {
 	width: 700px;
 	margin-top: 50px;
 	margin-left: 70px;
 }
+
 #change {
 	margin-top: 50px;
 	width: 45%;
 }
+
 #change-h1 {
 	margin-top: 30px;
 	margin-right: 40px;
@@ -289,6 +349,7 @@ body {
 	text-align: left;
 	color: #D1E1FF;
 }
+
 #change-h3 {
 	margin-top: 50px;
 	margin-right: 40px;
@@ -298,30 +359,37 @@ body {
 	color: #D1E1FF;
 	text-align: justify;
 }
+
 #join-penguins {
 	height: 375px;
 	margin-top: 45px;
 	margin-right: 120px;
 	margin-bottom: 100px;
 }
+
 #join-a {
 	background-color: #123e54;
 	cursor: pointer;
 	text-decoration: underline;
 }
+
 #join-a:link {
 	color: inherit;
 }
+
 #join-a:visited {
 	color: inherit;
 }
+
 #join-a:hover {
 	background-color: #32405b;
 	color: inherit;
 }
+
 #join-a:active {
 	color: inherit;
 }
+
 #join-h1 {
 	margin-top: 60px;
 	font-size: 60px;
@@ -329,6 +397,7 @@ body {
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #join-h3 {
 	margin-top: 30px;
 	margin-bottom: 50px;
@@ -337,6 +406,7 @@ body {
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #join-h5 {
 	margin-top: -40px;
 	margin-bottom: 100px;
@@ -345,6 +415,7 @@ body {
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #form {
 	background-color: #426e84;
 	width: 40%;
@@ -355,12 +426,14 @@ body {
 	margin-bottom: 20px;
 	background-image: linear-gradient(to bottom, #426e84 0%, #123e54 80%);
 }
+
 #ask-h1 {
 	font-size: 40px;
 	font-family: Calibri;
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #subbutton {
 	width: 40%;
 	height: 33px;
@@ -371,6 +444,7 @@ body {
 	font-family: Calibri;
 	margin-bottom: 10px;
 }
+
 .textarea {
 	width: 60%;
 	height: 100px;
@@ -382,6 +456,7 @@ body {
 	resize: none;
 	text-align: center;
 }
+
 .text {
 	width: 60%;
 	height: 30px;
@@ -391,6 +466,7 @@ body {
 	padding: 7px;
 	text-align: center;
 }
+
 #all {
 	max-height: 360px;
 	width: 50%;
@@ -401,11 +477,13 @@ body {
 	overflow: auto;
 	background-image: linear-gradient(to bottom, #426e84 0%, #123e54 80%);
 }
+
 #forum-all {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
 }
+
 .post {
 	background-color: #13161D;
 	width: auto;
@@ -413,22 +491,26 @@ body {
 	border-radius: 10px;
 	margin-left: 3px;
 }
+
 .post h2 {
 	color: #D1E1FF;
 	font-family: Calibri;
 	font-size: 20px;
 }
+
 .post p {
 	color: #D1E1FF;
 	font-family: Calibri;
 	font-size: 17px;
 	word-break: break-all;
 }
+
 .post h3 {
 	color: #D1E1FF;
 	font-family: Calibri;
 	font-size: 17px;
 }
+
 #no-post {
 	margin-top: 10px;
 	font-size: 40px;
@@ -436,10 +518,28 @@ body {
 	text-align: center;
 	color: #D1E1FF;
 }
+
 #also-no-post {
 	margin-top: 10px;
 	font-size: 30px;
 	font-family: Calibri;
 	text-align: center;
 	color: #D1E1FF;
+}
+
+#upgraded {
+	margin-top: 50px;
+	margin-left: 30px;
+	font-size: 60px;
+	font-family: Calibri;
+	text-align: left;
+	color: #D1E1FF;
+}
+
+#divloaded {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 70px;
+	margin-left: 20px;
+	margin-bottom: 13px;
 }

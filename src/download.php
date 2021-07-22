@@ -16,7 +16,7 @@ include 'header.php';
 	  <br>
 	<button class="download">
     <a id="down-a" href="niranjanux.txt" download="downloaded">
-      <h1 class="dfn">↓ Download NiranjanUX Now</h1>
+      <h1 class="dfn" onclick="downloaded()">↓ Download NiranjanUX Now</h1>
     </a>
 	</button>
    </div>

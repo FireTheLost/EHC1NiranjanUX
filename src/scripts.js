@@ -7,3 +7,12 @@ window.onload = function() {
 
     document.getElementById("upgrade").innerHTML = OSName;
 }
+
+function downloaded()
+{
+	setTimeout(function() {
+		window.open("downloaded.php","_self")
+	}, 2000);	
+}
+
+
