@@ -69,9 +69,9 @@ $title = array(
     "Made For Penguins!",
     "For All Your Penguining Needs!",
     "A Super Easy To Use OS",
-    "Made For Penguins, Not By A Penguin",
+    "For Penguins, By Penguins",
     "An All New Linux Kernal",
-    "Pioneers Of The Future",
+    "Pioneering The Future",
     "NiranjanUX LLC ™"
 );
 echo $title[rand(0, count($title) - 1) ]
@@ -91,7 +91,7 @@ echo $title[rand(0, count($title) - 1) ]
 	  <li class="nav-element"><a class="nav-link" href="index.php">Home</a></li>
 	  <li class="nav-element"><a class="nav-link" href="whynux.php">Why NiranjanUX?</a></li>
 	  <li class="nav-element"><a class="nav-link" href="join.php">Join Us</a></li>
-	  <li class="nav-element">Contact</li>
+	  <li class="nav-element"><a class="nav-link" href="contact.php">Contact</a></li>
 	  <li class="nav-element"><a class="nav-link" href="forum.php">NiranjanUX Forum</a></li>
 	  <li class="nav-element"><a class="nav-link" href="download.php">Download</a></li>
 	</ul>

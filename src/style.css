@@ -27,8 +27,6 @@ body {
 }
 
 .nav-element:hover {
-	font-size: 27px;
-	margin: 27px;
 	text-decoration: underline;
 }
 
@@ -542,4 +540,48 @@ body {
 	margin-right: 70px;
 	margin-left: 20px;
 	margin-bottom: 13px;
+}
+
+#contact-h1 {
+	margin-top: 60px;
+	font-size: 55px;
+	font-family: Calibri;
+	text-align: center;
+	color: #D1E1FF;
+}
+
+#contact-h3 {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-family: Calibri;
+	text-align: center;
+	color: #D1E1FF;
+}
+
+#contact-button {
+	margin-top: 10px;
+	padding: 15px 25px;
+	font-family: verdana;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #0f0f0f;
+	background-color: #a6d6f2;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #434655;
+}
+
+#contact-button:hover {
+	background-color: #71a6d2 
+}
+
+#contact-button:active {
+	color: #D1E1FF;
+	background-color: rgb(31, 63, 87);
+	box-shadow: 0 5px #434655;
+	transform: translateY(4px);
 }
