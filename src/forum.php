@@ -28,6 +28,10 @@ if (isset($_GET["error"]))
     {
         echo '<p style="margin-top: 20px; color:red; font-size:20px; text-align: center">Sorry, Something Went Wrong</p>';
     }
+    if ($_GET["error"] == "empty")
+    {
+        echo '<p style="margin-top: 20px; color:red; font-size:20px; text-align: center">Please Enter Something In The Message</p>';
+    }
     else if ($_GET["error"] == "none")
     {
         echo '<p style="margin-top: 20px; color:green; font-size:20px; text-align: center">Message Posted Successfully</p>';

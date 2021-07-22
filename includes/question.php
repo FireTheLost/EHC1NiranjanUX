@@ -6,6 +6,18 @@ $username = $_POST['name'];
 $message = $_POST['message'];
 $time = date("H:i:s");
 
+if (empty($message))
+{
+  header("location: ../src/forum.php?error=empty");
+    exit();
+}
+
+if (empty($username))
+{
+  $username = "Anonymous";
+}
+
+
 $sql="INSERT INTO forum (forumMessage, forumUser, forumTime) VALUES (?, ?, ?);";
 $stmt=mysqli_stmt_init($conn);
 
