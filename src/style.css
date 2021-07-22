@@ -360,7 +360,8 @@ body {
 #subbutton {
 	width: 40%;
 	height: 33px;
-	border: 1px solid #0f0f0f;
+	border: 3px solid #13161D;
+	background-color: #f0f0f0;
 	border-radius: 10px;
 	font-size: 20px;
 	font-family: Calibri;
@@ -371,7 +372,7 @@ body {
 	height: 100px;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	border: 1px solid #0f0f0f;
+	border: 3px solid #13161D;
 	border-radius: 10px;
 	padding: 10px;
 	resize: none;
@@ -381,7 +382,7 @@ body {
 	width: 60%;
 	height: 30px;
 	margin-top: 10px;
-	border: 1px solid #0f0f0f;
+	border: 3px solid #13161D;
 	border-radius: 10px;
 	padding: 7px;
 	text-align: center;
