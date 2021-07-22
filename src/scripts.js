@@ -1,3 +1,5 @@
+// Check OS
+
 window.onload = function() {
     var OSName = "Upgrade To NiranjanUX Today!";
     if (navigator.appVersion.indexOf("Win") != -1) OSName = "Upgrade From Windows Today!";
@@ -7,6 +9,8 @@ window.onload = function() {
 
     document.getElementById("upgrade").innerHTML = OSName;
 }
+
+//Wait for 2 seconds and open the downloaded page.
 
 function downloaded()
 {
