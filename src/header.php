@@ -65,9 +65,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NiranjanUX | 
 	<?php
-		$title = array("Made For Penguins!", "For All Your Penguining Needs!", "A Super Easy To Use OS", "Made For Penguins, Not By A Penguin", "An All New Linux Kernal", "Pioneers Of The Future", "NiranjanUX LLC ™");
-		echo $title[rand(0, count($title) - 1)]
-	?>
+$title = array(
+    "Made For Penguins!",
+    "For All Your Penguining Needs!",
+    "A Super Easy To Use OS",
+    "Made For Penguins, Not By A Penguin",
+    "An All New Linux Kernal",
+    "Pioneers Of The Future",
+    "NiranjanUX LLC ™"
+);
+echo $title[rand(0, count($title) - 1) ]
+?>
 	</title>
 	<script src="scripts.js"></script>
 	<link rel="stylesheet" href="style.css">

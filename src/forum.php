@@ -62,7 +62,7 @@ if ($queryResults > 0)
 }
 else
 {
-	echo "<h1 id='no-post'>No Posts Yet<h1><h2 id='also-no-post'>Be The First To Post Now</h2>";
+    echo "<h1 id='no-post'>No Posts Yet<h1><h2 id='also-no-post'>Be The First To Post Now</h2>";
 }
 ?>
 

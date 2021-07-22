@@ -1,5 +1,5 @@
 <?php
-	include 'header.php';
+include 'header.php';
 ?>
 
 <h1 id="title">NiranjanUX</h1>
@@ -46,5 +46,5 @@
 </div>
 
 <?php
-	include 'footer.php';
+include 'footer.php';
 ?>

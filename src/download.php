@@ -1,5 +1,5 @@
 <?php
-	include 'header.php';
+include 'header.php';
 ?>
 
 <div id="divload">
@@ -27,5 +27,5 @@
 <br>
 
 <?php
-	include 'footer.php';
+include 'footer.php';
 ?>

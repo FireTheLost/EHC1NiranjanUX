@@ -1,5 +1,5 @@
 <?php
-	include 'header.php';
+include 'header.php';
 ?>
 
 <div id="why-div">
@@ -44,5 +44,5 @@ That said, you can help the community by joining today.
 </div>
 
 <?php
-	include 'footer.php';
+include 'footer.php';
 ?>

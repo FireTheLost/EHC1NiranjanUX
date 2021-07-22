@@ -1,6 +1,6 @@
 <?php
-	include 'header.php';
-	include '../includes/conn.php';
+include 'header.php';
+include '../includes/conn.php';
 ?>
 
 <h1 id="join-h1">Help Develop NiranjanUX</h1>
@@ -11,5 +11,5 @@
 <h5 id="join-h5">If We're Considering You, We'll Send You A Follow Up Email</h5>
 
 <?php
-	include 'footer.php';
+include 'footer.php';
 ?>
