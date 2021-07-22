@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-include 'conn.php';
+include '../includes/conn.php';
 ?>
 
 <h1 id="join-h1">Have Any Questions?</h1>

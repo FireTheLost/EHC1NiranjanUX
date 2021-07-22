@@ -11,7 +11,7 @@ $stmt=mysqli_stmt_init($conn);
 
 if (!mysqli_stmt_prepare($stmt, $sql))
 {
-	header("location: forum.php?error=error");
+	header("location: ../src/forum.php?error=error");
     exit();
 }
 
@@ -19,5 +19,5 @@ if (!mysqli_stmt_prepare($stmt, $sql))
   mysqli_stmt_execute($stmt);
   mysqli_stmt_close($stmt);
   
-  header("location: forum.php?error=none");
+  header("location: ../src/forum.php?error=none");
     exit();
