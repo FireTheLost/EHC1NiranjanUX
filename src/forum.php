@@ -26,6 +26,7 @@ include '../includes/conn.php';
   <?php
 if (isset($_GET["error"]))
 {
+  //Checks if there's an error and displays the appropriate message
     if ($_GET["error"] == "error")
     {
         echo '<p style="margin-top: 20px; color:red; font-size:20px; text-align: center">Sorry, Something Went Wrong</p>';
@@ -46,10 +47,14 @@ if (isset($_GET["error"]))
 <div id="all">
 
 <?php
+
+//Gets all database records
 $sql = "SELECT * FROM forum ORDER BY forumId desc";
 $result = mysqli_query($conn, $sql);
 $queryResults = mysqli_num_rows($result);
 
+
+//Echos all existing records in a loop
 if ($queryResults > 0)
 {
     while ($row = mysqli_fetch_assoc($result))
