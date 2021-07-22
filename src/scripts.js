@@ -18,5 +18,3 @@ function downloaded()
 		window.open("downloaded.php","_self")
 	}, 2000);	
 }
-
-
